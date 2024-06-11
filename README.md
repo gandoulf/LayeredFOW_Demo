@@ -12,15 +12,15 @@ As for the layeredFOW download the plugin and add it inside the Plugins folder.
 The DungeonGenerator plugins might not compile with Unreal 5.4 because of a virtual function.
 You will have to eddit this virtual methode declaration UDungeonTransactionalHierarchicalInstancedStaticMeshComponent::AddInstances
 
-replace in UDungeonTransactionalHierarchicalInstancedStaticMeshComponent.h
-virtual TArray<int32> AddInstances(const TArray<FTransform>& instanceTransforms, bool bShouldReturnIndices, bool bWorldSpace = false) override;
-by 
-virtual TArray<int32> AddInstances(const TArray<FTransform>& instanceTransforms, bool bShouldReturnIndices, bool bWorldSpace = false, bool bUpdateNavigation = true) override;
+replace in UDungeonTransactionalHierarchicalInstancedStaticMeshComponent.h <br />
+virtual TArray<int32> AddInstances(const TArray<FTransform>& instanceTransforms, bool bShouldReturnIndices, bool bWorldSpace = false) override;<br />
+by <br />
+virtual TArray<int32> AddInstances(const TArray<FTransform>& instanceTransforms, bool bShouldReturnIndices, bool bWorldSpace = false, bool bUpdateNavigation = true) override;<br />
 
-replace in UDungeonTransactionalHierarchicalInstancedStaticMeshComponent.cpp
-TArray<int32> UDungeonTransactionalHierarchicalInstancedStaticMeshComponent::AddInstances(const TArray<FTransform>& instanceTransforms, bool bShouldReturnIndices, bool bWorldSpace)
-by 
-TArray<int32> UDungeonTransactionalHierarchicalInstancedStaticMeshComponent::AddInstances(const TArray<FTransform>& instanceTransforms, bool bShouldReturnIndices, bool bWorldSpace, bool bUpdateNavigation)
+replace in UDungeonTransactionalHierarchicalInstancedStaticMeshComponent.cpp<br />
+TArray<int32> UDungeonTransactionalHierarchicalInstancedStaticMeshComponent::AddInstances(const TArray<FTransform>& instanceTransforms, bool bShouldReturnIndices, bool bWorldSpace)<br />
+by <br />
+TArray<int32> UDungeonTransactionalHierarchicalInstancedStaticMeshComponent::AddInstances(const TArray<FTransform>& instanceTransforms, bool bShouldReturnIndices, bool bWorldSpace, bool bUpdateNavigation)<br />
 
 #Compiled version
 
