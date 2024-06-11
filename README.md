@@ -4,7 +4,7 @@ UE5 project example for the LayeredFOW plugin.
 # Setup
 
 To make it work correctly please add the LayeredFOW plugin into the Plugins folder located in the Content folder.
-The demo as a procedural map which is working with another plugin that you can find here https://github.com/shun126/DungeonGenerator.
+The demo has a procedural map which is working with another plugin that you can find here [DungeonGenerator](https://github.com/shun126/DungeonGenerator).
 As for the layeredFOW download the plugin and add it inside the Plugins folder.
 
 #Compilation 
@@ -32,7 +32,7 @@ TArray<int32> UDungeonTransactionalHierarchicalInstancedStaticMeshComponent::Add
 
 #Compiled version
 
-You can dowload a compiled version of the demo here -> https://drive.google.com/file/d/1ZCt-VEQb189YmnXKtGEsg_KU8afXwhld/view?usp=sharing
+You can [Download](https://drive.google.com/file/d/1ZCt-VEQb189YmnXKtGEsg_KU8afXwhld/view?usp=sharing) a compiled version of the demo if you just wanna try it
 
 #Personal note
 
