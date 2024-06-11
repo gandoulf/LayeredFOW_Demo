@@ -36,5 +36,5 @@ You can [Download](https://drive.google.com/file/d/1ZCt-VEQb189YmnXKtGEsg_KU8afX
 
 #Personal note
 
-Please use everything you find as you please, I'll try to put more coment in the next version ... have fun ! :)
+Please use everything you find as you please, I'll try to put more comment in the next version ... have fun ! :)
 
