@@ -12,7 +12,7 @@ As for the layeredFOW download the plugin and add it into the Plugins folder.
 The DungeonGenerator plugins might not compile with Unreal 5.4 because of a virtual function.
 You will have to edit this declaration UDungeonTransactionalHierarchicalInstancedStaticMeshComponent::AddInstances
 
-replace in UDungeonTransactionalHierarchicalInstancedStaticMeshComponent.h <br />
+replace in DungeonTransactionalHierarchicalInstancedStaticMeshComponent.h <br />
 ```
 virtual TArray<int32> AddInstances(const TArray<FTransform>& instanceTransforms, bool bShouldReturnIndices, bool bWorldSpace = false) override;
 ```
@@ -21,7 +21,7 @@ by <br />
 virtual TArray<int32> AddInstances(const TArray<FTransform>& instanceTransforms, bool bShouldReturnIndices, bool bWorldSpace = false, bool bUpdateNavigation = true) override;
 ```
 
-replace in UDungeonTransactionalHierarchicalInstancedStaticMeshComponent.cpp<br />
+replace in DungeonTransactionalHierarchicalInstancedStaticMeshComponent.cpp<br />
 ```
 TArray<int32> UDungeonTransactionalHierarchicalInstancedStaticMeshComponent::AddInstances(const TArray<FTransform>& instanceTransforms, bool bShouldReturnIndices, bool bWorldSpace)
 ```
