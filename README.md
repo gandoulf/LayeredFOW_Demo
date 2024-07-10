@@ -1,5 +1,5 @@
 # LayeredFOW_Demo
-UE5 project example for the LayeredFOW plugin.
+UE5 project example for the LayeredFOW plugin. Please UE5.4 or higher version with this project
 
 # Setup
 
