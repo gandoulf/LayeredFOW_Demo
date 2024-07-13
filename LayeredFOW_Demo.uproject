@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.4",
+	"EngineAssociation": "{025F9283-48A9-FA73-32B5-1AA51FB7A6BE}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -20,6 +20,11 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "Downgrader",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/df3638de2b5044c1931fc0acae05c30b"
 		}
 	]
 }
