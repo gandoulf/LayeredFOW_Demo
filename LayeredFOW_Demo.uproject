@@ -30,6 +30,14 @@
 			"Name": "DungeonGenerator",
 			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/36a8b87d859f44439cfe1515975d7197"
+		},
+		{
+			"Name": "FogOfWar",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/649d79139c1141a9bd7df703e7af2ac3",
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
 		}
 	]
 }
