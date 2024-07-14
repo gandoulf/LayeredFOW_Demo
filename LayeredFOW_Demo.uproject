@@ -23,8 +23,13 @@
 		},
 		{
 			"Name": "Downgrader",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/df3638de2b5044c1931fc0acae05c30b"
+		},
+		{
+			"Name": "DungeonGenerator",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/36a8b87d859f44439cfe1515975d7197"
 		}
 	]
 }
