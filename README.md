@@ -3,7 +3,7 @@ UE5 project example for the LayeredFOW plugin. Please UE5.4 or higher version wi
 
 # Setup
 
-To make it work correctly please add the LayeredFOW plugin to UE5.4, you can follow this [Setup Video](https://www.youtube.com/watch?v=BVz-TQKzHNY).
+To make it work correctly please add the LayeredFOW plugin to UE5.4, you can follow this [Setup Video](https://www.youtube.com/watch?v=B9pieujL91c).
 The demo has a procedural map which is working with another plugin that you can find here [DungeonGenerator](https://github.com/shun126/DungeonGenerator).
 Download the plugin and add it into the Plugins folder in the Demo Project, be sure to enable the DungeonGenerator plugin in the LayeredFOW_Demo.uproject file.
 
