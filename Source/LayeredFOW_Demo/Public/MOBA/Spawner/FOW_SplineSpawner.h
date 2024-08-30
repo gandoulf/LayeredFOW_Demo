@@ -23,6 +23,10 @@ public:
 	UFUNCTION()
 		void UpdateSplineActor(float DeltaTime);
 
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category = "FOW")
+		void ReleaseActorFromSpline(AFOW_SplineActor* actor);
+	virtual void ReleaseActorFromSpline_Implementation(AFOW_SplineActor* actor);
+
 protected:
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere ,Category = "Settings", Meta = (ExposeOnSpawn = true))

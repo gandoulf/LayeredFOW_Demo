@@ -37,8 +37,13 @@ void AFOW_SplineSpawner::UpdateSplineActor(float DeltaTime)
 			}
 			else
 			{
-				actor->Destroy();
+				ReleaseActorFromSpline(actor);
 			}
 		}
 	}
+}
+
+void AFOW_SplineSpawner::ReleaseActorFromSpline_Implementation(AFOW_SplineActor* actor)
+{
+	actor->Destroy();
 }
